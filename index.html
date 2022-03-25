@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Follow my cursor</title>
+</head>
+<body>
+    <div class="wrapper flex-center">
+        <div id="pointer"></div>
+        <div id="cursor"></div>
+        
+        <a class="circle flex-center" onmouseover="cursorHover()" onmouseout="cursorStopHover()">click</a>
+        <a class="circle flex-center">click</a>
+        <a class="circle flex-center">click</a>
+        <a class="circle flex-center">click</a>
+        <a class="circle flex-center">click</a>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
