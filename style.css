@@ -43,8 +43,8 @@ body {
   transform: translateX(-50%) translateY(-50%);
   top: 0px;
   left: 0px;
-
-  transition: all .1s ease-out;
+  pointer-events:none;
+  transition: all .07s ease-out;
 }
 
 #pointer {
@@ -56,7 +56,7 @@ body {
   transform: translateX(-50%) translateY(-50%);
   background-color: aliceblue;
   border-radius: 50%;
-  transition: all .05s ease-out;
+  transition: all .03s ease-out;
   pointer-events:none;
 }
 
@@ -69,3 +69,4 @@ body {
 #cursor.cursor-hover {
   opacity: 0;
 }
+
